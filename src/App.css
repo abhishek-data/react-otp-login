@@ -21,4 +21,33 @@ body {
   text-align: center;
 }
 
-/* Add your custom styles below this line */
+.form-container{
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.form-container > form > input{
+  height: 30px;
+  width: 200px;
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+
+.form-container > form > button{
+  height: 30px;
+  width: 70px;
+  margin: 5px;
+  text-align: center;
+  outline: none;
+}
+
+.otp-input{
+  height: 40px;
+  width: 40px;
+  margin: 5px;
+  text-align: center;
+  font-size: 1.2rem;
+  outline: none;
+}
